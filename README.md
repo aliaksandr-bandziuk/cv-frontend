@@ -1,0 +1,1 @@
+[https://aliaksandr-bandziuk.github.io/cv-frontend/](https://aliaksandr-bandziuk.github.io/cv-frontend/)
