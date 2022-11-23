@@ -194,8 +194,8 @@ a {
               line-height: 25px;
             }
           }
-        }
-
+        }   
+        
         .position-name {
           font-size: 20px;
           margin-bottom: 15px;
@@ -206,7 +206,34 @@ a {
           color: grey;
           margin-bottom: 15px;
         }
+
       }
+
+      .projects-title {
+        margin-top: 20px;
+        font-size: 16px;
+        color: grey;
+        margin-bottom: 15px;
+      }
+      .projects {
+        display: flex;
+        gap: 20px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        @media (max-width: 470px) {
+          flex-direction: column;
+          gap: 10px;
+        }
+      }
+      .project {
+        a {
+          color: #17a54b;
+          &:hover {
+            color: red;
+          }
+        }
+      }
+      
       .code {
         padding-bottom: 20px;
         pre {

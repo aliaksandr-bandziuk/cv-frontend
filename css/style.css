@@ -207,6 +207,30 @@ a {
   color: grey;
   margin-bottom: 15px;
 }
+.container .cv__wrapper .cv__description .projects-title {
+  margin-top: 20px;
+  font-size: 16px;
+  color: grey;
+  margin-bottom: 15px;
+}
+.container .cv__wrapper .cv__description .projects {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+@media (max-width: 470px) {
+  .container .cv__wrapper .cv__description .projects {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+.container .cv__wrapper .cv__description .project a {
+  color: #17a54b;
+}
+.container .cv__wrapper .cv__description .project a:hover {
+  color: red;
+}
 .container .cv__wrapper .cv__description .code {
   padding-bottom: 20px;
 }
