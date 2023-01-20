@@ -118,9 +118,6 @@ a {
 .container .cv__wrapper .cv__details .hero__links .links__block ul {
   padding-left: 10px;
   margin-bottom: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 15px;
 }
 .container .cv__wrapper .cv__details .hero__links .links__block ul li {
   margin-bottom: 10px;
@@ -132,6 +129,11 @@ a {
 .container .cv__wrapper .cv__details .hero__links .links__block ul li a:hover {
   text-decoration: underline;
   color: red;
+}
+.container .cv__wrapper .cv__details .hero .skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 15px;
 }
 .container .cv__wrapper .cv__details .hero .hero__langs .langs__title {
   font-size: 20px;
