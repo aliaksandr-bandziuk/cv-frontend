@@ -130,11 +130,6 @@ a {
   text-decoration: underline;
   color: red;
 }
-.container .cv__wrapper .cv__details .hero .skills-list {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 15px;
-}
 .container .cv__wrapper .cv__details .hero .hero__langs .langs__title {
   font-size: 20px;
   line-height: 30px;
