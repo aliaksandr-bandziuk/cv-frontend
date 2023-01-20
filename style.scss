@@ -108,6 +108,9 @@ a {
             ul {
               padding-left: 10px;
               margin-bottom: 20px;
+              display: flex;
+              flex-wrap: wrap;
+              column-gap: 15px;
               li {
                 margin-bottom: 10px;
                 font-size: 14px;
